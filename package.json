@@ -1,0 +1,26 @@
+{
+  "name": "event-sphere-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARYANTYAGI1/event-sphere-api.git"
+  },
+  "author": "Aryan Tyagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ARYANTYAGI1/event-sphere-api/issues"
+  },
+  "homepage": "https://github.com/ARYANTYAGI1/event-sphere-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
