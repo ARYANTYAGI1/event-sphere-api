@@ -8,6 +8,7 @@ const userSchema = new Schema(
         password: { type: String, required: true },
         isEmailVerified: { type: Boolean, default: false, enum: [true, false] },
         userType: { type: Number, default: 1, enum: [1, 2, 3] }, // 1 -> Admin, 2 -> Organiser, 3 -> Attendee
+        emailVerifyToken: { type: String, default: '' },
         address: {
             fullAddress: { type: String, required: true },  // Full human-readable address
             location: {

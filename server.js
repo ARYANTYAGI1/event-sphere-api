@@ -5,6 +5,10 @@ require('dotenv').config()
 
 DBConnect();
 
+app.use(express.json())
+
+require('./routes')(app)
+
 // const UserController = require('./controllers/admin/UserController');
 // UserController.createDefaultAdmin()
 
